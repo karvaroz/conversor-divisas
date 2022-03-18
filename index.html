@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Conversor de Divisas</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <img src="https://cdn-icons-png.flaticon.com/512/438/438527.png" alt="" />
+      <div class="money_input">
+        <form action="" id="myForm">
+          <p>Elige moneda a convertir:</p>
+          <br />
+          <label for="USD">
+            <input class="radio" type="radio" name="cambio" id="USD" /> Dolar
+          </label>
+          <label for="MX">
+            <input class="radio" type="radio" name="cambio" id="MX" /> Peso
+            Mexicano
+          </label>
+          <label for="EUR">
+            <input class="radio" type="radio" name="cambio" id="EUR" /> Euro
+          </label>
+          <label for="LIB">
+            <input class="radio" type="radio" name="cambio" id="LIB" /> Libra
+            Esterlina
+          </label>
+          <br />
+          <h3>Cantidad de Dinero en Pesos Colombianos:</h3>
+          <input type="number" id="valor" />
+          <button type="submit" class="boton">Convertir</button>
+        </form>
+      </div>
+    </div>
+    <div id="resultado"></div>
+    <script src="/script.js"></script>
+  </body>
+</html>
